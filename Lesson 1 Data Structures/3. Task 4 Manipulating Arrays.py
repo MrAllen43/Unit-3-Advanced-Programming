@@ -1,0 +1,13 @@
+MyArray=["Adam","Neil","Amanda","Natasha","Bert"]
+print(MyArray)
+MyArray[1]="Jan"
+print(MyArray)
+MyArray[0]="Bob"
+print(MyArray[0])
+print(len(MyArray))
+MyArray.append("Mike")
+print(MyArray)
+MyArray.remove("Hello")
+print(MyArray)
+MyArray.insert(1,"Beth")
+print(MyArray)
